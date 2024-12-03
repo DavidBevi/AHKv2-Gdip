@@ -1,20 +1,7 @@
-# AHKv2-Gdip
-This repository contains the GDI+ library (Gdip_All.ahk) compatible with both AHK v1.1.32.00 and [AHK v2-a108](https://autohotkey.com/v2/)
+# My fork of [AHKv2-Gdip](https://github.com/mmikeww/AHKv2-Gdip)
 
-Support for AHK v1.0 is dropped (find the original `Gdip_All.ahk` library if you need that).  
+This is probably broken.
 
-See the [commit history](https://github.com/mmikeww/AHKv2-Gdip/commits/master) to see the changes made.
+I wanted to test GDIP, but it keeps giving me errors, on AHKv2. I don't even know if this will do the job I'm trying to do. I don't even know what GDIP should look like, I can't run any demo!
 
-# Examples
-See the appropriate Examples folder for usage examples
-
-# Usage
-All of the Gdip_*() functions use the same syntax as before, so no changes should be required, with one exception:  
-
-The `Gdip_BitmapFromBRA()` function requires you to read the .bra file witih `FileObj.RawRead()` instead of the `FileRead` command. See the Tutorial.11 file in the Examples folder
-
-# History
-- @tic created the original [Gdip.ahk](https://github.com/tariqporter/Gdip/) library
-- @Rseding91 updated it to make it compatible with unicode and x64 AHK versions and renamed the file `Gdip_All.ahk`
-- this repository updates @Rseding91's `Gdip_All.ahk` to fix bugs and make it compatible with AHK v2
-
+(I think) I fixed some things, now it doesn't throw errors anymore, but I also don't see anything happening.
